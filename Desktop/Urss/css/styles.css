@@ -1,13 +1,16 @@
 main{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     max-width: 56%;
+    justify-content: center;
     margin-top: 10%;
+    
+    margin-left: 100px;
 }
 
 body{
     background-color: rgb(253, 253, 253);
     
-    display: flex;
+    display: block;
     justify-content: center;
 
 }
@@ -15,7 +18,8 @@ h1{
     
     color:chocolate;
     font-size: 45px;
-    text-align: center;
+    text-align: left;
+
     
     margin-bottom: 60px;
 }
@@ -64,10 +68,8 @@ nav .nav-rigt-section img{
     margin-left: 10px;
 }
 h2{
-    text-align: center;
-    color: chocolate;
-    margin-bottom: 30px;
-}
+    text-align: left;
+
 
 h3{
     color:rgb(180, 123, 83)
@@ -76,4 +78,6 @@ p{
     text-align: justify;
     font-size: 18px;
     margin-left: 12px;
+
 }
+
